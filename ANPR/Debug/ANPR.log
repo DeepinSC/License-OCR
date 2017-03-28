@@ -1,0 +1,48 @@
+﻿生成启动时间为 2016/5/14 20:24:42。
+     1>项目“D:\Machine Learning\myOCR\ANPR\ANPR\ANPR.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DetectRegions.cpp main.cpp trainSVM.cpp
+         trainSVM.cpp
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cpp
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\machine learning\myocr\anpr\anpr\main.cpp(88): warning C4018: “<”: 有符号/无符号不匹配
+         DetectRegions.cpp
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(16): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(20): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(24): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(25): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(99): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(101): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(116): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\machine learning\myocr\anpr\anpr\detectregions.cpp(117): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Machine Learning\myOCR\ANPR\Debug\ANPR.exe" /INCREMENTAL /NOLOGO opencv_world300d.lib opencv_world300.lib opencv_ts300.lib opencv_ts300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Machine Learning\myOCR\ANPR\Debug\ANPR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Machine Learning\myOCR\ANPR\Debug\ANPR.lib" /MACHINE:X86 Debug\DetectRegions.obj
+         Debug\evalOCR.obj
+         Debug\main.obj
+         Debug\OCR.obj
+         Debug\Plate.obj
+         Debug\trainOCR.obj
+         Debug\trainSVM.obj
+     1>trainSVM.obj : error LNK2005: _main 已经在 main.obj 中定义
+     1>trainSVM.obj : error LNK2005: _main 已经在 main.obj 中定义
+     1>D:\Machine Learning\myOCR\ANPR\Debug\ANPR.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“D:\Machine Learning\myOCR\ANPR\ANPR\ANPR.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.43
