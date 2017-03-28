@@ -59,9 +59,7 @@ int main(int argc, char** argv)
 		printf("no available img found");
 		return 0;
 	}
-	//filename ="ss.jpg";
-	//input_image = imread(filename,1);
-	//waitKey(30);
+	
 	imshow("Original Image",input_image);
 	string filename_whithoutExt = getFilename(filename);
 	cout << "working with file: " << filename_whithoutExt << "\n";
